@@ -6,6 +6,7 @@
 import ingrediends from fridge as ing
 import microwave, bowl, utils from kitchen
 import units from metrics as u
+import time
 
 # Add ingredients into bowl with units multipler to calculate correct amount
 bowl.add(ing.SUGAR, 4 * u.TABLESPOON)
@@ -20,6 +21,9 @@ bowl.add(ing.SALT, 0.05 * u.TEASPOON)
 # Mixing and baking
 bowl.mix_together()
 microwave.bake(bowl, 30 * u.SECONDS) 
+	
+# TODO: Safety check for hot bowl, already instad i use sleep
+time.sleep(30)
 
 # Cutting and preparing cookies
 cake = bowl.getCake()
