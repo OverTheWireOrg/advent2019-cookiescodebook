@@ -20,7 +20,10 @@ bowl.add(ing.SALT, 0.05 * u.TEASPOON)
 
 # Mixing and baking
 bowl.mix_together()
-microwave.bake(bowl, 30 * u.SECONDS) 
+while not bowl.getCake().isBaked():
+	# Its default 600W microwave, for other wattage, use third parameter, eg:
+	# microwave.bake(bowl, 30 * u.SECONDS, 750 * u.WATS)
+	microwave.bake(bowl, 30 * u.SECONDS) 
 	
 # TODO: Safety check for hot bowl, already instad i use sleep
 time.sleep(30)
