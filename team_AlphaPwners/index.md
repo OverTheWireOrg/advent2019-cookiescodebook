@@ -5,20 +5,21 @@
 # Import elements
 import ingrediends from fridge as ing
 import microwave, bowl, utils from kitchen
+import units from metrics as u
 
-# Add ingredients into bowl
-bowl.add(ing.SUGAR, 4)
-bowl.add(ing.FLAVOUR, 4)
-bowl.add(ing.CACAO, 2)
-bowl.add(ing.OIL, 1)
-bowl.add(ing.MILK, 3)
-bowl.add(ing.EGG, 1)
-bowl.add(ing.BAKING_POWDER, 0.25)
-bowl.add(ing.SALT, 0.05)
+# Add ingredients into bowl with units multipler to calculate correct amount
+bowl.add(ing.SUGAR, 4 * u.TABLESPOON)
+bowl.add(ing.FLAVOUR, 4 * u.TABLESPOON)
+bowl.add(ing.CACAO, 2 * u.TABLESPOON)
+bowl.add(ing.OIL, 1 * u.TABLESPOON)
+bowl.add(ing.MILK, 3 * u.TABLESPOON)
+bowl.add(ing.EGG, 1 * u.UNIT)
+bowl.add(ing.BAKING_POWDER, 0.25 * u.TEASPOON)
+bowl.add(ing.SALT, 0.05 * u.TEASPOON)
 
 # Mixing and baking
 bowl.mix_together()
-microwave.bake(bowl, 150)
+microwave.bake(bowl, 30 * u.SECONDS) 
 
 # Cutting and preparing cookies
 cake = bowl.getCake()
