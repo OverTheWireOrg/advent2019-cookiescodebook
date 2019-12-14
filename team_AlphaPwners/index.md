@@ -22,7 +22,7 @@ microwave.bake(bowl, 150)
 
 # Cutting and preparing cookies
 cake = bowl.getCake()
-cookies = [utils.cutShape(layer) for layer in cake]
+cookies = [utils.cut_shape(layer) for layer in cake]
 
 # Cleaning whole stuff
 utils.clean_whole_kitchen()
