@@ -35,13 +35,13 @@ We leave it up to you to choose which team you want to belong to.
 ## Practicalities
 
 When you have finished your task, you need to communicate your deliverables to us.
-Start by cloning this repository, because you will need to make a pull request later.
+Start by forking this repository, because you will need to make a pull request later.
 
 For team Brain:
 - create a new directory that identifies you. For instance, Santa created the directory *team_Santa*.
-- inside this directory, copy the README.md file from the template in the *_template/* directory.
-- edit your copy of README.md and fill in: the name of your cookie, your team name, link to your video and the cookie recipe code.
-- copy your *cookies.jpg* and *evaluation.jpg* as well (max resolution 640x480)
+- inside this directory, copy the index.md file from the template in the *_template/* directory.
+- edit your copy of index.md and fill in: the name of your cookie, your team name, link to your video and the cookie recipe code.
+- copy your *cookies_&lt;teamname&gt;.jpg* and *evaluation_&lt;teamname&gt;.jpg* as well (max resolution 640x480)
 
 For team Brawn:
 - copy your picture into to directory of the recipe you chose to evaluate, include your name so that the files are unique, following the template: *cookies_&lt;teamname&gt;.jpg* and *evaluation_&lt;teamname&gt;.jpg* (max resolution 640x480)
