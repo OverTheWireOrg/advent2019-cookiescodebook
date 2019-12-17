@@ -1,5 +1,5 @@
-# <COOKIENAME>
-### by team <TEAMNAME>
+# Chocolate Chip Cookies
+### by team WeAreScientists
 
 ```C
 <your code goes here>
