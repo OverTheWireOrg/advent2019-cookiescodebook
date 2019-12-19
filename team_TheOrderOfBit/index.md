@@ -159,7 +159,7 @@ c5
 c7
 ```
 
-The making of: https://streamable.com/4uftc
+The making of: https://youtu.be/v7dub9hyk-o
 
 ![Cookies](cookies_TheOrderOfBit.jpg)
 ![Evaluation](evaluation_TheOrderOfBit.jpg)
