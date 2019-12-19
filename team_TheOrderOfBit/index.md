@@ -2,14 +2,15 @@
 ### by team The Order Of Bit
 
 ```
-# ======================================================================= #
-#                         -=- CHOC BIT COOKIES -=-                        #
-#                          team: the order of bit                         #
-#                                                                         #
-#                   recipe coded in assemblium, see day 15                #
-#             binary compiler used: https://pastebin.com/FttjyQ5h         #
-#         assemblium interpreter used: https://pastebin.com/yNSKdjrW      #
-# ======================================================================= #
+# ======================================================================== #
+#                          -=- CHOC BIT COOKIES -=-                        #
+#                           team: the order of bit                         #
+#                                                                          #
+#                    recipe coded in assemblium, see day 15                #
+#              binary compiler used: https://pastebin.com/FttjyQ5h         #
+#          assemblium interpreter used: https://pastebin.com/yNSKdjrW      #
+#             python3 -u compileasm.py cookies.asm | ./assemblium          #
+# ======================================================================== #
 
 # === STRING UTILITIES ===
 
