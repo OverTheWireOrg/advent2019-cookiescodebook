@@ -7,7 +7,7 @@ from superiorMeasuringUnits import GRAM as g, CELSIUS as C
 from cookLib import Oven, Bowl, HumanHand, Spoon
 import time
 #from fun import crazyFun # not yet implemented
-from fun import slightFun # not yet implemented
+from fun import slightFun
 
 # Constant variables
 THERMOSTAT = 180 * C
