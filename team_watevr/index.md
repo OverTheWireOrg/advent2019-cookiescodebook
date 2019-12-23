@@ -7,5 +7,5 @@
 
 The making of: [https://streamable.com/rz6y4](https://streamable.com/rz6y4)
 
-![Cookies](cookies_watevr.png)
+![Cookies](cookies_watevr.jpg)
 ![Evaluation](evaluation_watevr.jpg)
