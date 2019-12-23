@@ -8,8 +8,4 @@
 The making of: [https://streamable.com/rz6y4](https://streamable.com/rz6y4)
 
 ![Cookies](cookies_watevr.jpg)
-<<<<<<< HEAD
 ![Evaluation](evaluation_watevr.jpg)
-=======
-![Evaluation](evaluation_watevr.jpg)
->>>>>>> abe585a5c44f6796e114c5f421d6dfe81ffd77b6
