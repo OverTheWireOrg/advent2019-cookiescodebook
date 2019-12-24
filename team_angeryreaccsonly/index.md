@@ -38,7 +38,7 @@ int main() {
 
 	empty_into(tray, cookiejar); // careful, may be hot
 
-	clean(bowl);
+	clean(mixer);
 	clean(workarea);
 	clean(cooldown(tray));
 	clean(cooldown(oven));
