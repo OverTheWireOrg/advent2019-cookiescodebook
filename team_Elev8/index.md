@@ -54,7 +54,8 @@ int main() {
 
     empty_into(tray, cookiejar); 
 
-    clean(bowl);
+    clean(bowl1);
+    clean(bowl2);
     clean(workarea);
     clean(cooldown(tray));
     clean(cooldown(oven));
