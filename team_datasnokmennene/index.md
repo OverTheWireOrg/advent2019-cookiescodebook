@@ -1,7 +1,7 @@
 # <American Cookies>
 ### By Datasnokmennene
 
-'''Python
+'''python
 import drawer
 import fridge
 import time
