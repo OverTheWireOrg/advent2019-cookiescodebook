@@ -1,11 +1,11 @@
-# <American Cookies>
+# American Cookies
 ### By Datasnokmennene
 
-'''python
+```python
 import drawer
 import fridge
 import time
-import appliances
+import appliances	
 
 def mix_butter_and_sugar(butter, sugar):
     mix = appliances.mix(butter, sugar)
@@ -22,6 +22,9 @@ def cut_chocolate(chocolate)
     return bits
 
 def main():
+    oven.temp(160)
+    oven.mode(over_and_under_heat)
+
     # Making the dough
     dough = mix_butter_and_sugar(drawer.sugar*250, fridge.butter*250)
     dough += dry_mix(drawer.flour*500, drawer.baking_soda*0.05, drawer.salt*0.05)
@@ -42,7 +45,7 @@ def main():
 
 
 main()
-'''
+```
 
 The making of: https://www.youtube.com/watch?v=38kgETqlO4w&feature=youtu.be
 
