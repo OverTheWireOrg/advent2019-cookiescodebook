@@ -7,10 +7,10 @@ import fridge
 import time
 import appliances	
 
-def mix_butter_and_sugar(butter, sugar):
+def mix_butter_and_sugar(butter, sugar, vanilla, eggs):
     mix = appliances.mix(butter, sugar)
-    mix.append(vanilla*0.05)
-    mix.append(eggs*2)
+    mix.append(vanilla)
+    mix.append(eggs)
     return mix
 
 def dry_mix(flour, baking_soda, salt):
@@ -22,12 +22,16 @@ def cut_chocolate(chocolate)
     return bits
 
 def main():
+    # Set oven to 160 degrees celsius
     oven.temp(160)
     oven.mode(over_and_under_heat)
 
     # Making the dough
-    dough = mix_butter_and_sugar(drawer.sugar*250, fridge.butter*250)
+    # Add 250 grams of sugar and butter 1 table spoon of vanilla extract and 2 eggs
+    dough = mix_butter_and_sugar(drawer.sugar*250, fridge.butter*250, drawer.vanilla*0.05, fridge.eggs*2)
+    # Add 500 grams of flour, 1 teaspoon of baking soda and one teaspoon of salt
     dough += dry_mix(drawer.flour*500, drawer.baking_soda*0.05, drawer.salt*0.05)
+    # Cut 200 grams of cholcolate
     dough += cut_chocolate(drawer.chocolate*200)
 
     # Adding to the oven
